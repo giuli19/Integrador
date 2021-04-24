@@ -5,8 +5,8 @@ public class Main {
     public static void main(String[] args) {
 
         Registro registro = new Registro();
-        Propietario propietario = new Propietario();
-        Automotor automotor = new Automotor();
+        Propietario prop1 = new Propietario("giuli", 42825444, "garay 140");
+        Automotor automotor = new Automotor(true);
 
     }
 }
