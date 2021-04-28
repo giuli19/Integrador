@@ -2,12 +2,15 @@ package com.company;
 
 public class Automotor {
 
-    protected Boolean particular;
-    protected Boolean profesional;
+    private Propietario propietario;
+    protected Boolean particular = true;
+    protected Boolean profesional = true;
 
+    public Automotor(){
+    }
 
     public Automotor(Boolean particular, Boolean profesional) {
         this.particular = true;
-        this.profesional = profesional;
+        this.profesional = true;
     }
 }

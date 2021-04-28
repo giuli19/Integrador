@@ -5,12 +5,14 @@ public class Propietario {
     private String nombre;
     private Integer dni;
     private String dirección;
+    private String autorizado;
 
 
-    public Propietario(String nombre, Integer dni, String dirección) {
+    public Propietario(String nombre, Integer dni, String dirección, String autorizado) {
         this.nombre = nombre;
         this.dni = dni;
         this.dirección = dirección;
+        this.autorizado = autorizado;
     }
 
     public String getNombre() {
